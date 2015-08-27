@@ -1,5 +1,6 @@
 import * as nunjucks from 'nunjucks';
 import * as path from 'path';
+import * as _ from 'lodash';
 
 declare var hexo: HexoStatic;
 
@@ -10,15 +11,8 @@ var nunjucksDefaults: NunjucksOptions = {
 if (typeof hexo.config.nunjucks == 'undefined') {
     hexo.config.nunjucks = {};
 }
-    
-for (let key in nunjucksDefaults) {
-    
-    if ( ! nunjucksDefaults.hasOwnProperty(key)) continue;
-    
-    if (typeof hexo.config.nunjucks[key] == 'undefined') {
-        hexo.config.nunjucks[key] = (<any>nunjucksDefaults)[key]
-    }
-}
+
+_.extend(hexo.config.nunjucks, nunjucksDefaults);
 
 var renderer: HexoSyncRenderer = function (data, locals) {
     
