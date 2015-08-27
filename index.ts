@@ -6,6 +6,7 @@ declare var hexo: HexoStatic;
 
 var nunjucksDefaults: NunjucksOptions = {
     autoescape: false,
+    watch: false,
 };
 
 if (typeof hexo.config.nunjucks == 'undefined') {
