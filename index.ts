@@ -25,3 +25,4 @@ var renderer: HexoSyncRenderer = function (data, locals) {
 
 hexo.extend.renderer.register('nunjucks', 'html', renderer, true);
 hexo.extend.renderer.register('j2', 'html', renderer, true);
+hexo.extend.renderer.register('njk', 'html', renderer, true);
