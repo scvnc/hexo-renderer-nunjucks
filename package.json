@@ -10,8 +10,9 @@
   "devDependencies": {
     "typescript": "~1.8.10"
   },
+  "scripts": {
+    "build": "tsc -p ."
   },
-  "devDependencies": {},
   "keywords": [
     "nunjucks",
     "jinja",
