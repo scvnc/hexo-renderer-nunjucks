@@ -1,6 +1,6 @@
 {
   "name": "hexo-renderer-nunjucks",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Nunjucks renderer for Hexo",
   "author": "Morris Allison III <author@morris.xyz>",
   "license": "ISC",
