@@ -2,7 +2,14 @@
   "name": "hexo-renderer-nunjucks",
   "version": "1.0.4",
   "description": "Nunjucks renderer for Hexo",
+  "author": "Morris Allison III <author@morris.xyz>",
+  "license": "ISC",
   "main": "index.js",
+  "homepage": "https://github.com/morrisallison/hexo-renderer-nunjucks#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/morrisallison/hexo-renderer-nunjucks.git"
+  },
   "dependencies": {
     "lodash": "~4.12.0",
     "nunjucks": "~2.4.2"
@@ -14,17 +21,10 @@
     "build": "tsc -p ."
   },
   "keywords": [
-    "nunjucks",
-    "jinja",
     "hexo",
+    "jinja",
+    "nunjucks",
     "plugin",
     "renderer"
-  ],
-  "author": "Morris Allison III <author@morris.xyz>",
-  "license": "ISC",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/morrisallison/hexo-renderer-nunjucks.git"
-  },
-  "homepage": "https://github.com/morrisallison/hexo-renderer-nunjucks#readme"
+  ]
 }
