@@ -20,11 +20,11 @@
     "plugin",
     "renderer"
   ],
-  "author": "Morris Allison III <hello@morrisllison.com>",
+  "author": "Morris Allison III <author@morris.xyz>",
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+https://bitbucket.org/morrisallison/hexo-renderer-nunjucks.git"
+    "url": "git+https://github.com/morrisallison/hexo-renderer-nunjucks.git"
   },
-  "homepage": "https://bitbucket.org/morrisallison/hexo-renderer-nunjucks#readme"
+  "homepage": "https://github.com/morrisallison/hexo-renderer-nunjucks#readme"
 }
