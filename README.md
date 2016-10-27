@@ -44,6 +44,20 @@ nunjucks:
   autoescape: true
 ```
 
+### Configuring Nunjucks Envrionment
+
+Create a file called `nunjucks.config.js` in the root folder which exports a function that takes and configures a Nunjucks environment. Here is an example configuring markdown.
+
+```javascript
+var nunjucks = require('nunjucks'),
+    markdown = require('nunjucks-markdown'),
+    marked = require('marked');
+
+module.exports = function (env) {
+  markdown.register(env, marked);
+}
+```
+
 ## File Extensions
 
 This plugin supports the following file extensions.
